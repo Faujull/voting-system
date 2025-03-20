@@ -1,66 +1,32 @@
 # Voting System in C
 
-This is a simple command-line voting system implemented in C. It allows users to register voters and candidates, cast votes, and view election results.
+This project is a simple voting system implemented in C using linked lists, stacks, and queues.
 
 ## Features
-- Register voters with name, voter ID, and birthdate
-- Register candidates with name
-- Validate voter age (must be 18 or older)
-- Allow voters to cast their vote only once
-- Store votes and display election results
-- Sort results based on votes received
+- Add voters and candidates dynamically
+- Ensure only eligible voters can vote (age 18+)
+- Store and retrieve last 10 voters using a stack
+- Maintain a queue of voters waiting to vote
+- Sort candidates based on votes
+- Display election results
 
-## Installation & Compilation
-1. Clone the repository or download the source code:
+## How to Run
+1. Compile the program using GCC:
    ```sh
-   git clone https://github.com/yourusername/voting-system.git
-   cd voting-system
+   gcc -o voting_system c_project.c
    ```
-2. Compile the program using GCC:
-   ```sh
-   gcc -o voting_system "c project.c"
-   ```
-3. Run the executable:
+2. Run the executable:
    ```sh
    ./voting_system
    ```
+3. Follow the on-screen instructions to add voters and candidates, then proceed with the voting process.
 
-## Usage
-1. Enter the number of voters and candidates.
-2. Register each voter by providing their name, voter ID, and birthdate.
-3. Register each candidate by providing their name.
-4. Start the voting process where each voter can cast their vote.
-5. View the election results after all votes are cast.
-
-## Example Output
+## File Structure
 ```
-How many voters? 3
-How many candidates? 2
-
-Voter 1 Details:
-Full Name: John Doe
-Voter ID: 101
-Date of Birth (DD MM YYYY): 15 6 2000
-
-Candidate 1 Name: Alice
-Candidate 2 Name: Bob
-
---- Voting Starts ---
-Enter Voter ID: 101
-Candidates:
-1. Alice
-2. Bob
-Vote for candidate number: 1
-Vote recorded!
-
---- Election Results ---
-Alice got 1 votes.
-Bob got 0 votes.
+- c_project.c  # Main C program
+- README.md    # Project documentation
 ```
-
-## License
-This project is open-source and available under the MIT License.
 
 ## Author
-Faujul Kabir - (https://github.com/Faujull)
-
+- **Faujul Kabir**  
+  GitHub: [Faujull](https://github.com/Faujull)
