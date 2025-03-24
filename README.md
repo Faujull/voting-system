@@ -10,22 +10,6 @@ This project is a simple voting system implemented in C using linked lists, stac
 - Sort candidates based on votes
 - Display election results
 
-## How to Run
-1. Compile the program using GCC:
-   ```sh
-   gcc -o voting_system c_project.c
-   ```
-2. Run the executable:
-   ```sh
-   ./voting_system
-   ```
-3. Follow the on-screen instructions to add voters and candidates, then proceed with the voting process.
-
-## File Structure
-```
-- c_project.c  # Main C program
-- README.md    # Project documentation
-```
 
 ## Author
 - **Faujul Kabir**  
